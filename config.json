@@ -1,0 +1,23 @@
+{
+  "accounts": [
+    {
+      "token": "YOUR_TOKEN_1",
+      "guild_id": "YOUR_SERVER_ID",
+      "channel_id": "YOUR_CHANNEL_ID"
+    },
+    {
+      "token": "YOUR_TOKEN_2",
+      "guild_id": "YOUR_SERVER_ID",
+      "channel_id": "YOUR_CHANNEL_ID"
+    }
+    // …add up to 20+ accounts here
+  ],
+  "gambling": {
+    "conservative_threshold": 3,
+    "small_bet_amount": 5,
+    "medium_bet_amount": 100
+  },
+  "proxy_scraping_enabled": true,
+  "staggered_start_seconds": 5,
+  "sauce_farming_enabled": true
+}
